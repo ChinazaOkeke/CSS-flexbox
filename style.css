@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.main-bx{
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+.card{
+  width: 230px;
+  padding: 25px;
+  
+  height: 390px;
+}
+.box1{
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box2{
+  background-color: hsl(184, 100%, 22%);
+}
+.box3{
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.content{
+  padding: 15px;
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  margin: 20px 0;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.btn{
+  margin: 60px 0;
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 35px;
+  outline: none;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 11px;
+  cursor: pointer;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 75%;
+}
+.btn1{
+  color: hsl(31, 77%, 52%);
+}
+.btn2{
+  color:  hsl(184, 100%, 22%) ;
+}
+.btn3{
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: 0.4s;
+  
+}
+header{
+  background-color: black; 
+  
+}
+nav{
+  margin: 30px 0; 
+ 
+}
+nav a{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 10px 30px 10px 0;
+}
+nav a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
